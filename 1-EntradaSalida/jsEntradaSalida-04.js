@@ -2,11 +2,11 @@
 Debemos lograr tomar un dato por 'PROMPT' 
 y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
-var texto = prompt ('ingresar texto');
+var nombre = prompt ('ingrese su nombre');
 
 function mostrar() {
-	
-	txtIdNombre.value = texto;
+
+	txtIdNombre.value = nombre;
 }
 
 // tomar valor por prompt
